@@ -1,2 +1,11 @@
-.DS_Store
-.ipynb_checkpoints
+# Ignore Mac folder customizations 
+*.DS_Store
+
+# Ignore Jupyter Notebook checkpoint files
+*.ipynb_checkpoints
+
+# Ignore large files that are part of the analysis
+data/
+*.zip
+*.fastq
+*.fa
