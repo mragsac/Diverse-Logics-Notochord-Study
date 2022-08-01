@@ -42,3 +42,7 @@ For this study, we used several scripts to analyze our data. We wanted to share 
 	2. Because we have overlapping sequence between our reads, assemble the entire read sequence using `FLASH` (`02_enhancer-dictionary/02_flash`).
 	3. Consolidate unique reads by "collapsing" them and tallying up the number of times a unique sequence appears in our data (`02_enhancer-dictionary/03_collapse`).
 	4. Analyze and determine the barcode tag-enhancer sequence dictionary associations (`02_enhancer-dictionary/04_assemble`).
+4. Analyze the bulk, whole-embryo massively-parallel reporter assay (MPRA) in *Ciona intestinalis*: 
+	1. Determine the sequencing quality with `fastqc` (`03_bulk-screen/01_fastqc`).
+	2. Consolidate unique reads by "collapsing" them and tallying up the number of times a unique sequence appears in our data while also applying a read count filter (`03_bulk-screen/02_collapse/filter-collapse.py` with outputs in `03_bulk-screen/03_assemble/filtered-inputs/`).
+	3. Analyze the library and determine the distribution of activities for our enhancers (`03_bulk-screen/03_assemble/`).
