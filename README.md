@@ -4,6 +4,8 @@ This GitHub repository contains the code used in the analyses for the following 
 
 > **Song, Benjamin P**+, **Michelle F. Ragsac**+, Krissie Tellez, Granton A Jindal, Jessica L Grudzien, Sophia H Le, Emma K Farley. "Diverse logics and grammar encode notochord enhancers." *In submission*, 2022. 
 > + *These authors contributed equally*
+> 
+> https://www.biorxiv.org/content/10.1101/2022.07.25.501440v1
 
 ---
 
